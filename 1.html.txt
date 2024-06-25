@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>悔過書</title>
+    <style>
+        body {
+            background-image: url('image.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: KaiTi_GB2312;
+            color: #EE33EE;
+        }
+        .content {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        p {
+            text-indent: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>珍：</em></u></span> 
+    </p>
+    <p><br /></p>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>不知道這封悔過書能不能補一點洞。</em></u></span> 
+    </p>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>我想了想，我真的挺過分。我到底在鬧什麼，到後來，我自己都不知道了，很抱歉😞。</em></u></span> 
+    </p>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>說真的，妳為我做的真的也夠多了，我卻一直鬧，一直吵。可是有時候，我希望你可以明白一點點我的出發點😞。</em></u></span> 
+    </p>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>我害怕失去。我都知道你沒有幹嘛，你什麼都沒做，可是我不知道為什麼我會一直想，一直想。問了不信，看了也不信。</em></u></span> 
+    </p>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>我可能生了一點小病，需要一點點時間醫，雖然妳給的時間也夠多了。</em></u></span> 
+    </p>
+    <div class="content">
+        <p>
+            <span style="font-size:16px; line-height:1.5;"><u><em>可以的話，請你不要丟我一個人。我明知道你現在就不想談些什麼，卻一直逼著你承認些什麼。你昨天跟我說的，我安心了，真的！</em></u></span> 
+        </p>
+        <p>
+            <span style="font-family:'Trebuchet MS, Helvetica, sans-serif';"><br /></span> 
+        </p>
+        <p>
+            <span style="font-size:16px; line-height:1.5;"><u><em>我現在打這個都覺得這種文打多了。</em></u></span> 
+        </p>
+    </div>
+    <div class="content">
+        <p>
+            <span style="font-size:16px; line-height:1.5;"><u><em>我不知道該怎麼辦😞。我覺得我會因為害怕失去而真的失去。</em></u></span> 
+        </p>
+    </div>
+    <p>
+        <span style="font-size:16px; line-height:1.5;"><u><em>像你常說的，我這樣真的有比較近嗎？我這樣只會越來越遠。我這種模式來想要維持關係，對你我都不公平，</em></u></span><span style="font-size:16px; line-height:1.5;"><u><em>尤其對妳。</em></u></span> 
+    </p>
+    <div class="content">
+        <p>
+            <span style="font-size:16px; line-height:1.5;"><u><em>我每次說的我受傷，我委屈的時候，我沒有想過你。我說的這些都是有依據，可以講出為什麼！我不是隨便說說的。</em></u></span> 
+        </p>
+        <p><br /></p>
+        <p>
+            <span style="font-size:16px;"><u><em><span style="line-height:1.5;">我真的希望可以越來越好。也為我對你做的這些（控制欲、佔有</span><span style="line-height:1.5;"></span><span style="line-height:1.5;">慾）感到抱歉😞。</span></em></u></span> 
+        </p>
+    </div>
+    <p><br /></p>
+</body>
+</html>
