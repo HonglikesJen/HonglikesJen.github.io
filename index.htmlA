@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👷‍♂️立全👷‍♂️專用鋼筋混凝土重量計算</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .calculator {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .calculator h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calculator">
+    <h2>鋼筋混凝土重量計算</h2>
+
+    <label for="length">長度 (公分)</label>
+    <input type="number" id="length" placeholder="輸入長度 (cm)">
+
+    <label for="width">寬度 (公分)</label>
+    <input type="number" id="width" placeholder="輸入寬度 (cm)">
+
+    <label for="thickness">厚度 (公分)</label>
+    <input type="number" id="thickness" placeholder="輸入厚度 (cm)">
+
+    <button onclick="calculateConcreteWeight()">計算重量</button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    function calculateConcreteWeight() {
+        // 獲取輸入的長度、寬度和厚度，並轉換為米
+        const length = parseFloat(document.getElementById("length").value) / 100;
+        const width = parseFloat(document.getElementById("width").value) / 100;
+        const thickness = parseFloat(document.getElementById("thickness").value) / 100;
+
+        // 檢查輸入是否有效
+        if (isNaN(length) || isNaN(width) || isNaN(thickness)) {
+            document.getElementById("result").textContent = "請輸入有效的數值。";
+            return;
+        }
+
+        // 計算鋼筋混凝土的體積
+        const volume = length * width * thickness;
+
+        // 假設鋼筋混凝土的密度為 2400 kg/m³
+        const density = 2400;
+
+        // 計算重量
+        const weight = volume * density;
+
+        // 顯示結果
+        document.getElementById("result").textContent = `鋼筋混凝土重量：${weight.toFixed(2)} 公斤`;
+    }
+</script>
+
+</body>
+</html>
